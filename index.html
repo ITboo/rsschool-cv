@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
-    <header class="header">Some header info</header>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+          </nav>
+    </header>
     <main class="main">
         <div class="container">
         <div class="leftside">
             <img src="./images/no-image.png" alt="photo">
-            <h3 class="cv_blockname">Contacts</h3>
+            <h2 class="cv_blockname">Contacts</h2>
             <div class="contacts">
                 <ul class="list">
                     <li class="list-item">tel: 123456789</li>
@@ -22,7 +31,7 @@
                     <li class="list-item">Linkedin</li>
                 </ul>
             </div>
-            <h3 class="cv_blockname">Skills</h3>
+            <h2 class="cv_blockname">Skills</h2>
             <div class="skills">
                 <ul class="list">
                     <li class="list-item">HTML, CSS</li>
@@ -58,9 +67,22 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
                 </div>
             </div>
+            <div class="cv_code">
+                <p><code>
+                    .nav-list {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                      }
+                </code>
+                </p>
+            </div>
         </div>
         </div>
     </main>
-    <footer class="footer"><a href="https://rs.school/js-stage0/">RS-school</a></footer>
+    <footer class="footer">
+        <a href="https://github.com/ITboo"><span> &#169; Hanna Parfenava</span></a>
+        <a href="https://rs.school/js-stage0/"><img src="./images/logo-rs.svg"></a>
+    </footer>
 </body>
 </html>
