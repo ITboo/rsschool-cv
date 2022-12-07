@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
@@ -12,9 +13,9 @@
     <header class="header">
         <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
             </ul>
           </nav>
     </header>
@@ -25,7 +26,7 @@
             <h2 class="cv_blockname">Contacts</h2>
             <div class="contacts">
                 <ul class="list">
-                    <li class="list-item">tel: 123456789</li>
+                    <li class="list-item">Tel: <a href="tel:123456789">+123 456 789</a></li>
                     <li class="list-item">email: abcdefg@mail.com</li>
                     <li class="list-item">GitHub</li>
                     <li class="list-item">Linkedin</li>
@@ -34,10 +35,19 @@
             <h2 class="cv_blockname">Skills</h2>
             <div class="skills">
                 <ul class="list">
-                    <li class="list-item">HTML, CSS</li>
-                    <li class="list-item">JavaScript</li>
-                    <li class="list-item">GitHub, Git</li>
+                    <li class="list-item"><img src="./images/html.svg" alt="html" width="30"> HTML</li>
+                    <li class="list-item"><img src="./images/css.svg" alt="css" width="30"> CSS</li>
+                    <li class="list-item"><img src="./images/js.svg" alt="js" width="30"> JavaScript</li>
+                    <li class="list-item"><img src="./images/github.svg" alt="git" width="30"> Git, GitHub</li>
                     <li class="list-item">Figma, Adobe Photoshop</li>
+                </ul>
+            </div>
+            <div class="lang">
+                <h2 class="cv_blockname">Languages</h2>
+                <ul class="list">
+                    <li class="list-item">Russian - Native</li>
+                    <li class="list-item">English - Upper-Intermediate</li>
+                    <li class="list-item">Polish  - Basic</li>
                 </ul>
             </div>
         </div>
@@ -45,6 +55,7 @@
              <h1 class="cv_name">Hanna Parfenava</h1>
             <h2 class="cv_heading">Junior Frontend Developer</h2>
             <div class="cv_about">
+            <h2 class="cv_heading">About me</h2>
             <p class="cv_text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo sapiente deleniti libero officia iusto unde quas quaerat pariatur commodi laborum, repellendus aperiam labore, repellat ipsum hic id! Eaque, repudiandae?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti recusandae expedita sunt eligendi quis minus doloribus. Inventore voluptatem tenetur, voluptate quam recusandae deleniti dolorem libero reiciendis amet, itaque provident?</p>
@@ -68,6 +79,7 @@
                 </div>
             </div>
             <div class="cv_code">
+                <h2 class="cv_heading">Code Example</h2>
                 <p><code>
                     .nav-list {
                         display: flex;
@@ -77,12 +89,30 @@
                 </code>
                 </p>
             </div>
+            <div class="cv_exp">
+                <h2 class="cv_heading">Experience</h2>
+                <div class="project">
+                    <h4 class="project_name">NAME</h4>
+                    <p class="project_description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                </div>
+            </div>
+            <div class="cv_study">
+                <h2 class="cv_heading">Study</h2>
+                <div class="project">
+                    <h4 class="project_name">NAME</h4>
+                    <p class="project_description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                </div>
+            </div>
         </div>
         </div>
     </main>
     <footer class="footer">
-        <a href="https://github.com/ITboo"><span> &#169; Hanna Parfenava</span></a>
-        <a href="https://rs.school/js-stage0/"><img src="./images/logo-rs.svg"></a>
+        <a href="https://github.com/ITboo"><span> &#169; GitHub: ITboo</span></a>
+        <span>2022</span>
+        <a href="https://rs.school/js-stage0/"><img src="./images/logo-rs.svg" alt="rs-logo" width="100"></a>
     </footer>
+
 </body>
 </html>
