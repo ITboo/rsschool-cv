@@ -6,30 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>CV</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-            </ul>
-          </nav>
+        
+          <div class="cv_header">
+            <img src="./images/no-image.png" alt="photo">
+          <div class="header-text">
+             <h1 class="cv_name">Hanna Parfenava</h1>
+            <h2 class="cv_heading">Junior Frontend Developer</h2>
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Print CV</a></li>
+                </ul>
+              </nav>
+          </div>
+          </div>
     </header>
+
+
+
+
+
     <main class="main">
         <div class="container">
         <div class="leftside">
-            <img src="./images/no-image.png" alt="photo">
+           
             <h2 class="cv_blockname">Contacts</h2>
             <div class="contacts">
                 <ul class="list">
+                    <li class="list-item">Mogilev, Belarus</li>
                     <li class="list-item">Tel: <a href="tel:123456789">+123 456 789</a></li>
                     <li class="list-item">email: abcdefg@mail.com</li>
-                    <li class="list-item">GitHub</li>
-                    <li class="list-item">Linkedin</li>
+                
+                <li class="list-item">
+                <div class="socials">
+                    <img src="./images/discord.svg" alt="Discord" width="30">
+                    <img src="./images/linked.svg" alt="LinkedIn" width="30">
+                    <img src="./images/githubus.svg" alt="GitHub" width="30">
+                </div>
+                </li>
                 </ul>
             </div>
             <h2 class="cv_blockname">Skills</h2>
@@ -39,7 +60,9 @@
                     <li class="list-item"><img src="./images/css.svg" alt="css" width="30"> CSS</li>
                     <li class="list-item"><img src="./images/js.svg" alt="js" width="30"> JavaScript</li>
                     <li class="list-item"><img src="./images/github.svg" alt="git" width="30"> Git, GitHub</li>
-                    <li class="list-item">Figma, Adobe Photoshop</li>
+                    <li class="list-item"><img src="./images/nodejs.png" alt="node" width="30"> Node.js</li>
+                    <li class="list-item">Figma</li>
+                    <li class="list-item">Adobe Photoshop</li>
                 </ul>
             </div>
             <div class="lang">
@@ -52,34 +75,54 @@
             </div>
         </div>
         <div class="rightside">
-             <h1 class="cv_name">Hanna Parfenava</h1>
-            <h2 class="cv_heading">Junior Frontend Developer</h2>
             <div class="cv_about">
             <h2 class="cv_heading">About me</h2>
             <p class="cv_text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo sapiente deleniti libero officia iusto unde quas quaerat pariatur commodi laborum, repellendus aperiam labore, repellat ipsum hic id! Eaque, repudiandae?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti recusandae expedita sunt eligendi quis minus doloribus. Inventore voluptatem tenetur, voluptate quam recusandae deleniti dolorem libero reiciendis amet, itaque provident?</p>
             </div>
+
+
             <div class="cv_projects">
                 <h2 class="cv_heading">Projects</h2>
+
                 <div class="project">
+                    <div class="project-text">
                     <h4 class="project_name">NAME</h4>
                     <p class="project_description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                        <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
+                </div>
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
                 </div>
                 <div class="project">
+                    <div class="project-text">
                     <h4 class="project_name">NAME</h4>
                     <p class="project_description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                        <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
+                    </div>
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
                 </div>
                 <div class="project">
+                    <div class="project-text">
                     <h4 class="project_name">NAME</h4>
                     <p class="project_description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                        <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
+                    </div>
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
                 </div>
+                
+                
+
             </div>
             <div class="cv_code">
                 <h2 class="cv_heading">Code Example</h2>
+                <div class="cv-code">
+                <div class="code-task">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis earum non nulla, dignissimos, voluptas quibusdam atque nemo obcaecati, commodi laborum? Quibusdam sed fugiat, dolorem voluptatem alias itaque tempore recusandae.
+                </div>
                 <p><code>
                     .nav-list {
                         display: flex;
@@ -88,7 +131,9 @@
                       }
                 </code>
                 </p>
+                </div>
             </div>
+
             <div class="cv_exp">
                 <h2 class="cv_heading">Experience</h2>
                 <div class="project">
