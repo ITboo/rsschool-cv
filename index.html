@@ -28,14 +28,9 @@
           </div>
           </div>
     </header>
-
-
-
-
-
     <main class="main">
         <div class="container">
-        <div class="leftside">
+        <aside class="leftside">
            
             <h2 class="cv_blockname">Contacts</h2>
             <div class="contacts">
@@ -73,86 +68,105 @@
                     <li class="list-item">Polish  - Basic</li>
                 </ul>
             </div>
-        </div>
+        </aside>
+        
         <div class="rightside">
             <div class="cv_about">
-            <h2 class="cv_heading">About me</h2>
+            <h3 class="heading">&nbspAbout me</h3>
             <p class="cv_text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo sapiente deleniti libero officia iusto unde quas quaerat pariatur commodi laborum, repellendus aperiam labore, repellat ipsum hic id! Eaque, repudiandae?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti recusandae expedita sunt eligendi quis minus doloribus. Inventore voluptatem tenetur, voluptate quam recusandae deleniti dolorem libero reiciendis amet, itaque provident?</p>
+                JavaScript Developer specializing in frontend development. I like to learn everything new and always in search of relevant and useful methods for development. Also, I am not afraid of a large amount of information and possible difficulties. I am sure, these character traits helped me to change my specialization from economist to web development. I love what I do and sincerely hope to gain new experience and to improve my skills further.
+                </p>
             </div>
-
-
             <div class="cv_projects">
-                <h2 class="cv_heading">Projects</h2>
+                <h3 class="heading">&nbspProjects</h3>
 
                 <div class="project">
                     <div class="project-text">
-                    <h4 class="project_name">NAME</h4>
+                    <h4 class="project_name">PROJECT NAME</h4>
                     <p class="project_description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                        It could be a brief and concise description of the project here...But later, alas</p>
                         <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
                 </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
                 </div>
+                <hr>
                 <div class="project">
                     <div class="project-text">
-                    <h4 class="project_name">NAME</h4>
+                    <h4 class="project_name">PROJECT NAME</h4>
+                    <p class="project_description">
+                        And there too... I hope, you are not surprised</p>
+                        <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
+                    </div>
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
+                </div>
+                <hr>
+                <div class="project">
+                    <div class="project-text">
+                    <h4 class="project_name">PROJECT NAME</h4>
                     <p class="project_description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
                         <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
                     </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
+                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
                 </div>
-                <div class="project">
-                    <div class="project-text">
-                    <h4 class="project_name">NAME</h4>
-                    <p class="project_description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
-                        <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
-                    </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50">
-                </div>
-                
-                
-
             </div>
+
             <div class="cv_code">
-                <h2 class="cv_heading">Code Example</h2>
+                <h3 class="heading">&nbspCode Example</h3>
                 <div class="cv-code">
                 <div class="code-task">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis earum non nulla, dignissimos, voluptas quibusdam atque nemo obcaecati, commodi laborum? Quibusdam sed fugiat, dolorem voluptatem alias itaque tempore recusandae.
+                <p>After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+You will need a rental car in order for you to get around in your vacation.<br>
+ The manager of the car rental makes you some good offers.<br>
+Every day you rent the car costs $40. <br>
+If you rent the car for 7 or more days, you get $50 off your total. <br>
+Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+Write a code that gives out the total amount for different days(d).</p>
                 </div>
-                <p><code>
-                    .nav-list {
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
-                      }
+                <code>
+                    function rentalCarCost(d) {<br>
+                        &nbsp let costPerDay=40;<br>
+                        &nbsp let totalCost=costPerDay*d;<br>
+                        &nbsp &nbsp  if (d>= 1 && d < 3)<br>
+                        &nbsp &nbsp &nbsp  return totalCost<br>
+                        &nbsp &nbsp  if (d>=3 && d<7)<br>
+                        &nbsp &nbsp &nbsp return totalCost-=20<br>
+                        &nbsp &nbsp  if (d>=7)<br>
+                        &nbsp &nbsp &nbsp return totalCost-=50<br>
+                    };
                 </code>
-                </p>
                 </div>
             </div>
 
             <div class="cv_exp">
-                <h2 class="cv_heading">Experience</h2>
-                <div class="project">
-                    <h4 class="project_name">NAME</h4>
-                    <p class="project_description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
-                </div>
+                <h3 class="heading">&nbspExperience</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
             </div>
+
             <div class="cv_study">
-                <h2 class="cv_heading">Study</h2>
-                <div class="project">
-                    <h4 class="project_name">NAME</h4>
-                    <p class="project_description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
+                <h3 class="heading">&nbspEducation</h3>
+                 <div class="study_item">
+                    <ul class="study_link"><a href="https://rs.school/index.html"><h4 class="study_name">The Rolling Scopes School</h4></a>
+                    <li>«JavaScript/Front-end. Stage 0». (2022-2023)</li>
+                    <li>«Разработка на Node.js». (2022-2023)</li>
+                    </ul>
+                </div>
+                <div class="study_item">
+                    <ul class="study_link"><a href="https://www.udemy.com/course/nodejs-start/"><h4 class="study_name">Udemy</h4></a>
+                    <li>«Node.js - c нуля, основы и построение архитектуры приложений.» (2022-2023)</li>
+                    </ul>
+                </div>
+                <div class="study_item">
+                    <ul class="study_link"><a href="http://en.bru.by/"><h4 class="study_name">Belarusian-Russian University</h4></a>
+                    <li>Master's degree: Economic development of industry</li>
+                    </ul>
                 </div>
             </div>
         </div>
         </div>
     </main>
+
+
     <footer class="footer">
         <a href="https://github.com/ITboo"><span> &#169; GitHub: ITboo</span></a>
         <span>2022</span>
