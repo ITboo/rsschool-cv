@@ -1,33 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  .header{
-    background: radial-gradient(100% 100% at 100% 0%, #5096F1 0%, #000 100%);
-  }
-  .nav{
-    max-width: 1200px;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .nav-list{
-    display:flex;
-    justify-content: space-between;
-  }
-  .nav-item{
-    list-style: none;
-  }
-  .nav-link{
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-.cv_header{
-  display: flex;
-  max-width: 1200px;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-body {
+  body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,6 +10,56 @@ body {
     font-family: 'Aleo', serif;
     font-family: 'Montserrat', sans-serif;
   }
+  .header{
+    background: radial-gradient(100% 100% at 100% 0%, #5096F1 0%, #000 100%);
+  }
+  .cv-photo{
+    margin-right: 30px;
+    border-radius: 150px;
+  }
+   .nav{
+    max-width: 1200px;
+    justify-content: center;
+    margin: 40px auto;
+  }
+  .nav-list{
+    display:flex;
+  }
+  .nav-item{
+    list-style: none;
+    padding-left: 30px;
+  }
+  .nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0087ca;
+    color: azure;
+    padding: 15px 32px;
+    text-align: center;
+  }
+.cv_header{
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 20px auto;
+}
+.cv_name{
+  margin-bottom: 0px;
+  font-family: 'Aleo', serif;
+  font-family: 'Zen Dots', cursive;
+  font-size: 64px;
+}
+.header-text{
+  text-shadow: 2px 2px 5px black;
+}
+.cv_heading{
+  margin-top: 10px;
+  font-size: 34px;
+}
+
+
+
+
 
 .leftside{
   margin-right: 50px;
@@ -49,14 +73,16 @@ body {
 list-style: none;
 }
 
-.cv_name{
-    font-family: 'Aleo', serif;
-    font-family: 'Zen Dots', cursive;
-    font-size: 48px;
-}
+
 h2{
     font-family: 'Aleo', serif;
     font-family: 'Zen Dots', cursive;
+}
+.cv_blockname{
+  text-align: left;
+  padding: 0 0 6px 10px;
+  border-left: 10px solid #A6D8CB;
+  border-bottom: 2px solid #A6D8CB;
 }
 .project_name{
     display: inline-block;
