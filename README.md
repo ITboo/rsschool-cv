@@ -1,1 +1,1 @@
-https://ITboo.github.io/rsschool-cv/cv
+https://ITboo.github.io/rsschool-cv/index
