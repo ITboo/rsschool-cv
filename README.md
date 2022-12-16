@@ -1,1 +1,2 @@
-# rsschool-cv
+1. https://ITboo.github.io/rsschool-cv/cv
+2. https://ITboo.github.io/rsschool-cv/
