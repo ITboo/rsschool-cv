@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link media="print" href="./style/print.css">
     <title>CV</title>
 </head>
 <body>
@@ -20,9 +21,9 @@
              <h2 class="cv_heading">Junior Frontend Developer</h2>
             <nav class="nav">
                 <ul class="nav-list">
-                  <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Print CV</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link" id="popupBtn">Contacts</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link" id="printBtn">Print CV</a></li>
                 </ul>
               </nav>
           </div>
@@ -31,19 +32,17 @@
     <main class="main">
         <div class="container">
         <aside class="leftside">
-           
             <h3 class="heading_left">Contacts</h3>
             <div class="contacts">
                 <ul class="list">
                     <li class="list-item">Mogilev, Belarus</li>
                     <li class="list-item">Tel: <a href="tel:123456789">+123 456 789</a></li>
                     <li class="list-item">Email: <a href="mailto:mail@prompt.lul">mail@prompt.lul</a></li>
-                
                 <li class="list-item">
                 <div class="socials">
-                    <img src="./images/discord.svg" alt="Discord" width="30">
-                    <img src="./images/linked.svg" alt="LinkedIn" width="30">
-                    <img src="./images/githubus.svg" alt="GitHub" width="30">
+                   <a href="https://discord.gg/gFnRh8Sudg"><img src="./images/discord.svg" alt="Discord" width="30"></a>
+                   <a href="https://www.linkedin.com/in/anna-parfenova-900b39254/"><img src="./images/linked.svg" alt="LinkedIn" width="30"></a>
+                   <a href="https://github.com/ITboo"><img src="./images/githubus.svg" alt="GitHub" width="30"></a>
                 </div>
                 </li>
                 </ul>
@@ -70,7 +69,6 @@
                 </ul>
             </div>
         </aside>
-        
         <div class="rightside">
             <div class="cv_about">
             <h3 class="heading">&nbspAbout me</h3>
@@ -78,40 +76,38 @@
                 JavaScript Developer specializing in frontend development. I like to learn everything new and always in search of relevant and useful methods for development. Also, I am not afraid of a large amount of information and possible difficulties. I am sure, these character traits helped me to change my specialization from economist to web development. I love what I do and sincerely hope to gain new experience and to improve my skills further.
                 </p>
             </div>
-            <div class="cv_projects">
+            <div class="cv_projects" id="projects">
                 <h3 class="heading">&nbspProjects</h3>
-
                 <div class="project">
                     <div class="project-text">
-                    <h4 class="project_name">PROJECT NAME</h4>
+                        <a href="https://github.com/ITboo/rsschool-cv"><h4 class="project_name">PROJECT NAME</h4></a>
                     <p class="project_description">
                         It could be a brief and concise description of the project here...But later, alas</p>
                         <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
                 </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
+                <a href="https://github.com/ITboo/rsschool-cv"><img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github"></a>
                 </div>
                 <hr>
                 <div class="project">
                     <div class="project-text">
-                    <h4 class="project_name">PROJECT NAME</h4>
+                        <a href="https://github.com/ITboo/rsschool-cv"><h4 class="project_name">PROJECT NAME</h4></a>
                     <p class="project_description">
                         And there too... I hope, you are not surprised</p>
                         <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
                     </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
+                <a href="https://github.com/ITboo/rsschool-cv"><img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github"></a>
                 </div>
                 <hr>
                 <div class="project">
                     <div class="project-text">
-                    <h4 class="project_name">PROJECT NAME</h4>
+                    <a href="https://github.com/ITboo/rsschool-cv"><h4 class="project_name">PROJECT NAME</h4></a>
                     <p class="project_description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
                         <p class="cv-stack">Stack: HTML, CSS, JavaScript</p>
                     </div>
-                    <img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github">
+                    <a href="https://github.com/ITboo/rsschool-cv"><img src="./images/git.svg" alt="github-link" class="project-link" width="50" title="Look it on Github"></a>
                 </div>
             </div>
-
             <div class="cv_code">
                 <h3 class="heading">&nbspCode Example</h3>
                 <div class="cv-code">
@@ -138,41 +134,68 @@ Write a code that gives out the total amount for different days(d).</p>
                 </code>
                 </div>
             </div>
-
             <div class="cv_exp">
                 <h3 class="heading">&nbspExperience</h3>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, magnam maxime laudantium debitis, numquam necessitatibus rem culpa itaque perspiciatis vero eum ipsa ut dolore assumenda quis explicabo! Praesentium, tempora dolorum.</p>
             </div>
-
             <div class="cv_study">
                 <h3 class="heading">&nbspEducation</h3>
                  <div class="study_item">
-                    <ul class="study_link"><a href="https://rs.school/index.html"><h4 class="study_name">The Rolling Scopes School</h4></a>
-                    <li>«JavaScript/Front-end. Stage 0». (2022-2023)</li>
-                    <li>«Разработка на Node.js». (2022-2023)</li>
+                    <ul class="study_link"><a href="https://rs.school/index.html" class="study_a"><h4 class="study_name">The Rolling Scopes School</h4></a>
+                    <li class="study_li">«JavaScript/Front-end. Stage 0». (2022-2023)</li>
+                    <li class="study_li">«Разработка на Node.js». (2022-2023)</li>
                     </ul>
                 </div>
                 <div class="study_item">
-                    <ul class="study_link"><a href="https://www.udemy.com/course/nodejs-start/"><h4 class="study_name">Udemy</h4></a>
-                    <li>«Node.js - c нуля, основы и построение архитектуры приложений.» (2022-2023)</li>
+                    <ul class="study_link"><a href="https://www.udemy.com/course/nodejs-start/" class="study_a"><h4 class="study_name">Udemy</h4></a>
+                    <li class="study_li">«Node.js - c нуля, основы и построение архитектуры приложений.» (2022-2023)</li>
                     </ul>
                 </div>
                 <div class="study_item">
-                    <ul class="study_link"><a href="http://en.bru.by/"><h4 class="study_name">Belarusian-Russian University</h4></a>
-                    <li>Master's degree: Economic development of industry</li>
+                    <ul class="study_link"><a href="http://en.bru.by/" class="study_a"><h4 class="study_name">Belarusian-Russian University</h4></a>
+                    <li class="study_li">Master's degree: Economic development of industry</li>
                     </ul>
                 </div>
             </div>
         </div>
         </div>
     </main>
-
-
     <footer class="footer">
         <a href="https://github.com/ITboo"><span> &#169; GitHub: ITboo</span></a>
         <span>2022</span>
         <a href="https://rs.school/js-stage0/"><img src="./images/logo-rs.svg" alt="rs-logo" width="100"></a>
     </footer>
+    <div id="popup_contact" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="close">X</a>
+                <div class="popup__title">CONTACTS</div>
+                <div class="popup__text">
+                    <ul class="list">
+                        <li class="list-item">Mogilev, Belarus</li>
+                        <li class="list-item">Tel: <a href="tel:123456789" class="popup__link">+123 456 789</a></li>
+                        <li class="list-item">Email: <a href="mailto:mail@prompt.lul" class="popup__link">mail@prompt.lul</a></li>
+                        <li class="list-item"><img src="./images/discord.svg" alt="Discord" width="30"><span class="popup__link">&nbsp1il_Boo#8016</span></li>
+                        <li class="list-item"><img src="./images/linked.svg" alt="LinkedIn" width="30">&nbsp <a href="https://www.linkedin.com/in/anna-parfenova-900b39254/" class="popup__link">https://www.linkedin.com/in/anna-parfenova-900b39254/</a></li>
+                        <li class="list-item"><img src="./images/githubus.svg" alt="GitHub" width="30">&nbsp <a href="https://github.com/ITboo" class="popup__link">https://github.com/ITboo</a></li>
+                    </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</body>
+    <div id="popup_print" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="exit">X</a>
+                <div class="popup__title">OOOOOOPS!</div>
+                <div class="popup__text">
+                  <p>Sorry, but this page is under construction.</p>
+                </div>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+    </body>
 </html>
