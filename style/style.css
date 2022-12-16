@@ -114,8 +114,6 @@ list-style: none;
 margin: 0;
 padding: 0;
 }
-
-
 h2{
     font-family: 'Aleo', serif;
     font-family: 'Zen Dots', cursive;
@@ -163,16 +161,14 @@ h2{
 hr{
   opacity: 50%;
 }
-
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    padding: 0 120px 0;
+    padding: 0 200px 0;
     background-color: #01395563;
 }
-
 .cv-code{
   display: flex;
 }
@@ -189,7 +185,6 @@ code{
   color:#0087ca;
   text-transform: uppercase;
 }
-
 .study_name{
   font-size: 20px;
 }
@@ -231,4 +226,12 @@ code{
 .popup__link{
   text-decoration: none;
   color: #0087ca;
+}
+.class_link{
+  text-decoration: none;
+  color:#0087ca;
+}
+.foot{
+  text-decoration: none;
+  color: white;
 }
