@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanna Parfenava | Software Web Developer</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
@@ -37,8 +37,7 @@
             src="./img/uk-flag.avif"
             alt="en"
             width="30px"
-            style="cursor: not-allowed"
-          />
+          >
         </div>
       </header>
       <main class="page">
@@ -49,13 +48,6 @@
               <h1 class="main__title">SOFTWARE ENGINEER</h1>
               <div
                 class="location"
-                style="
-                  display: flex;
-                  gap: 10px;
-                  align-items: center;
-                  justify-content: center;
-                  margin-bottom: 30px;
-                "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -115,15 +107,16 @@
                     />
                   </g>
                 </svg>
-                <h3>Mogilev, Belarus</h3>
+                <p>Mogilev, Belarus</p>
               </div>
               <div class="main__buttons">
                 <a href="#contacts" class="main__hire-button button"
                   >Contact me</a
                 >
                 <a
+                href="cv.pdf"
                   class="main__cv-button button button_dark"
-                  style="cursor: not-allowed"
+                  download="cv"
                   ><span>Download CV</span></a
                 >
               </div>
@@ -132,11 +125,12 @@
         </section>
 
         <section id="skills">
+          <div class="skills__container">
           <h2 class="skills__title title">My <span>skills</span></h2>
           <div class="skills__box">
             <div class="skills__list">
               <div class="subsection">
-                <p><span class="icon">></span> General:</p>
+                <p><span class="icon">&gt;</span> General:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -198,7 +192,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> State management:</p>
+                <p><span class="icon">&gt;</span> State management:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -222,7 +216,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> SSG & SSR:</p>
+                <p><span class="icon">&gt;</span> SSG & SSR:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -246,7 +240,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> Styling:</p>
+                <p><span class="icon">&gt;</span> Styling:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -312,7 +306,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> Package managers:</p>
+                <p><span class="icon">&gt;</span> Package managers:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -336,7 +330,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> Module Bundlers:</p>
+                <p><span class="icon">&gt;</span> Module Bundlers:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -360,7 +354,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> Code Quality:</p>
+                <p><span class="icon">&gt;</span> Code Quality:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -411,7 +405,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> Testing:</p>
+                <p><span class="icon">&gt;</span> Testing:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -444,7 +438,7 @@
                 </div>
               </div>
               <div class="subsection">
-                <p><span class="icon">></span> CI/CD:</p>
+                <p><span class="icon">&gt;</span> CI/CD:</p>
 
                 <div class="skills__wrapper">
                   <article class="skills__item">
@@ -496,6 +490,7 @@
               </code>
             </fieldset>
           </div>
+        </div>
         </section>
 
         <section class="page__works works" id="projects">
@@ -538,7 +533,7 @@
                 <a data-work-type="static" href="#" class="items-works__item">
                   <h4>Library</h4>
                   <div class="item-works__image">
-                    <img src="img/works/items/01.jpg" alt="Image" />
+                    <img src="img/works/items/01.jpg" alt="Image">
                   </div>
                   <p>Stack: HTML, CSS, JavaScript</p>
                 </a>
@@ -552,14 +547,14 @@
                     <img
                       src="https://private-user-images.githubusercontent.com/113611408/302373674-769fef1e-70f8-45b4-abb4-7dfbf59d1f05.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3NDk1MTcsIm5iZiI6MTcxOTc0OTIxNywicGF0aCI6Ii8xMTM2MTE0MDgvMzAyMzczNjc0LTc2OWZlZjFlLTcwZjgtNDViNC1hYmI0LTdkZmJmNTlkMWYwNS5KUEc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYzMFQxMjA2NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMzY1Mjg2ZTdjOGNhMzA0Zjk3ODZiZGQ5MWUxNmUxNWYwNmM0NDI4MzBiODE0ZDEwY2IyNGQwM2NjZTQ3NGVlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Oe5A0UgMa0TRDyQ8D7kDUl-DKYKlkccTtXiHfHkSQZ8"
                       alt="Image"
-                    />
+                    >
                   </div>
                   <p>Stack: Node JS modules: fs, path, os, zlib</p>
                 </a>
                 <a data-work-type="static" href="#" class="items-works__item">
                   <h4>Coffee House</h4>
                   <div class="item-works__image">
-                    <img src="img/works/items/03.jpg" alt="Image" />
+                    <img src="img/works/items/03.jpg" alt="Image" >
                   </div>
                   <p>Stack: HTML, CSS, JavaScript</p>
                 </a>
@@ -569,21 +564,21 @@
                     <img
                       src="https://private-user-images.githubusercontent.com/113611408/304153627-4397b7bf-df3a-4cee-a864-bbf3a943dab6.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3NTE3MzIsIm5iZiI6MTcxOTc1MTQzMiwicGF0aCI6Ii8xMTM2MTE0MDgvMzA0MTUzNjI3LTQzOTdiN2JmLWRmM2EtNGNlZS1hODY0LWJiZjNhOTQzZGFiNi5KUEc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYzMFQxMjQzNTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMTk2ZWUyMzhhOWU2ZTU4Y2Y3ZmQwOTc4YjFmYWJlYjM4ZjI3OTMyYmNlZWI0MzY2ZDMwMDlmYjVlNzBmYjc3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wJDU0MYI7QVsuRfcrJbsPALBsK1SxFfSdZqrNyQ9UDo"
                       alt="Image"
-                    />
+                    >
                   </div>
                   <p>Stack: Node JS, TypeScript, Postman</p>
                 </a>
                 <a data-work-type="static" href="#" class="items-works__item">
                   <h4>Shelter</h4>
                   <div class="item-works__image">
-                    <img src="img/works/items/05.jpg" alt="Image" />
+                    <img src="img/works/items/05.jpg" alt="Image" >
                   </div>
                   <p>Stack: HTML, CSS, JavaScript</p>
                 </a>
                 <a data-work-type="static" href="#" class="items-works__item">
                   <h4>Plants</h4>
                   <div class="item-works__image">
-                    <img src="img/works/items/06.jpg" alt="Image" />
+                    <img src="img/works/items/06.jpg" alt="Image" >
                   </div>
                   <p>Stack: HTML, CSS, JavaScript</p>
                 </a>
@@ -603,16 +598,38 @@
                   nostra, per inceptos himenaeos. Curabitur tempus urna at
                   turpis condimentum lobortis
                 </p>
+                <div class="about__languages">
+                  <h4 class="languages__title">Languages:</h4>
+                
+                <ul class="languages__list">
+                  <li class="languages__item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" alt="rus" width="30px">
+                    <span class="language">Russian:</span>
+                    <span>Native</span>
+                  </li>
+                  <li class="languages__item">
+                    <img src="./img/uk-flag.avif" alt="eng" width="30px">
+                    <span class="language">English:</span>
+                    <span>Upper-Intermediate (B2)</span>
+                    </li>
+                  <li class="languages__item">
+                    <img src="https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg" alt="kor" width="30px">
+                    <span class="language">Korean:</span>
+                    <span>Basic (A1)</span>
+                  </li>
+                </ul>
               </div>
+            </div>
             </div>
             <div class="about__image">
               <img
                 src="https://masterpiecer-images.s3.yandex.net/14b69258639e11eeb4d3b646b2a0ffc1:upscaled"
-                alt="Image"
+                alt="my-cute-photo"
                 width="60%"
               />
             </div>
           </div>
+         
         </section>
         <section class="page__contacts contacts" id="contacts">
           <div class="contacts__container">
