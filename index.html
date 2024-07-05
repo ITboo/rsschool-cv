@@ -33,14 +33,14 @@
               </li>
             </ul>
           </nav>
-          <img src="./img/uk-flag.avif" alt="en" width="30px" >
+          <img src="./img/uk-flag.avif" alt="en" width="30px" class="disabled">
         </div>
       </header>
       <main class="page">
         <section class="page__main main">
           <div class="main__container">
             <div class="main__content">
-              <h2 class="title">HANNA PARFENAVA</h2>
+              <h2 class="main__title">HANNA PARFENAVA</h2>
               <h1 class="main__title">SOFTWARE ENGINEER</h1>
               <div class="location">
                 <svg
@@ -183,8 +183,20 @@
                       >
                       <span>Node JS</span>
                     </article>
+                    <article class="skills__item">
+                      <img
+                        src="https://avatars.githubusercontent.com/u/11260967?s=280&v=4"
+                        width="36"
+                        height="36"
+                        alt="devtools"
+                      >
+                      <span>Dev Tools</span>
+                    </article>
+
                   </div>
                 </div>
+
+
                 <div class="subsection">
                   <p><span class="icon">&gt;</span> State management:</p>
 
@@ -509,21 +521,14 @@
                 </button>
                 <button
                 type="button"
-                  data-work-type="node"
+                  data-work-type="nodejs"
                   class="items-works__type button button_dark"
                 >
                   Node.js
                 </button>
-                <button
-                type="button"
-                  data-work-type="design"
-                  class="items-works__type button button_dark"
-                >
-                  Web Design
-                </button>
               </nav>
               <div class="items-works__body">
-                <a data-work-type="static" href="#" class="items-works__item">
+                <a data-work-type="static" href="https://github.com/ITboo/landing-pages/tree/main/library" class="items-works__item">
                   <h4>Library</h4>
                   <div class="item-works__image">
                     <img src="img/works/items/01.jpg" alt="Image" >
@@ -551,7 +556,7 @@
                   </div>
                   <p>Stack: HTML, CSS, JavaScript</p>
                 </a>
-                <a data-work-type="nodejs" href="#" class="items-works__item">
+                <a data-work-type="nodejs" href="https://github.com/ITboo/nodejs-crud-api" class="items-works__item">
                   <h4>Simple CRUD API</h4>
                   <div class="item-works__image">
                     <img
@@ -561,7 +566,7 @@
                   </div>
                   <p>Stack: Node JS, TypeScript, Postman</p>
                 </a>
-                <a data-work-type="static" href="#" class="items-works__item">
+                <a data-work-type="static" href="https://github.com/ITboo/landing-pages/tree/main/shelter" class="items-works__item">
                   <h4>Shelter</h4>
                   <div class="item-works__image">
                     <img src="img/works/items/05.jpg" alt="Image">
@@ -642,12 +647,11 @@
                   <li class="contacts__item">
                     e-mail: <a href="mailto:mockmail@tut.by">mockmail@tut.by</a>
                   </li>
-                  <li class="contacts__item">telegram: <span>#123</span></li>
-                  <li class="contacts__item">discord: <span>#1il_Boo</span></li>
+                  <li class="contacts__item">telegram: <span>@code_addicted</span></li>
                   <li class="contacts__item">
-                    linkedin: <a href="">Hanna Parfenava</a>
+                    linkedin: <a href="https://by.linkedin.com/in/hanna-parfenava">Hanna Parfenava</a>
                   </li>
-                  <li class="contacts__item">facebook: <a href="">link</a></li>
+                  <li class="contacts__item">discord: <span>#1il_Boo</span></li>
                 </ul>
               </div>
             </div>
@@ -686,9 +690,9 @@
               <div class="form__item">
                 <button
                   type="submit"
-                  class="form__button button"
+                  class="form__button button disabled"
                   disabled
-                >
+                 >
                   <span>Send Messsage</span>
                 </button>
               </div>
@@ -710,6 +714,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
