@@ -33,6 +33,10 @@
   color: var(--accent-color);
 }
 
+.flag{
+  width:30px;
+}
+
 @media (max-width: 500px) {
   .header__container {
     flex-direction: column;
